@@ -1,0 +1,333 @@
+@font-face {
+    font-family: "FjallaOne-Regular";
+    src: url("Fjalla_One/FjallaOne-Regular.ttf");
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #2C3E50;
+    color: #ECF0F1;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #BDC3C7;
+    color: #000000;
+    /* Change based on chosen palette */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #0d4268;
+    text-decoration: none;
+}
+
+main {
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-container {
+    flex: 4;
+}
+
+.image-container {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.name {
+    font-size: 70px;
+}
+
+.obj {
+    font-size: 20px;
+}
+
+.myimg {
+    max-width: 200px;
+    height: auto;
+}
+
+.advantages {
+    margin-top: 10px;
+    height: 500px;
+    background-color: #2C3E50;
+}
+
+.project h1 {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    /* margin-left: 35%; */
+    letter-spacing: 5px;
+    font-family: FjallaOne-Regular;
+}
+
+.project h4 {
+    /* margin-top: 20px; */
+    text-align: center;
+    color: white;
+    /* margin-left: 35%; */
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.adv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.adv1 {
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 300px;
+    width: 250px;
+    background-color: beige;
+}
+
+div.adv1 h3 {
+    color: #2C3E50;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div.adv1 p {
+    color: #2C3E50;
+    text-align: center;
+    margin-top: 10px;
+}
+.interenship {
+    margin-top: 10%;
+    height: 500px;
+    /* background-color: #2C3E50; */
+}
+
+.interenship h1 {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    
+    letter-spacing: 5px;
+    font-family: FjallaOne-Regular;
+}
+/* .intership_details{
+
+} */
+.myintern{
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 500px;
+  gap: 10px;
+  padding: 10px;
+  visibility: hidden;
+  
+}
+.myintern>div{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    color: rgb(215, 215, 215);
+}
+.intern>li{
+    font-size: 15px;
+    margin-left: 20px;
+    list-style-position: inside;
+}
+
+
+.education {
+    margin-top: 10%;
+    background-color: #383636;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.education h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.edu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education_details {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.education_details h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.education_details h4 {
+    font-size: 20px;
+    margin: 5px 0;
+    color: #777;
+}
+#skills {
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 10px;
+    background-color: beige;
+    text-align: center;
+}
+
+/* Style for the section header */
+#skills h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2C3E50;
+    /* letter-spacing: 1px; */
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Style for the education container */
+.edu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Style for each skill div */
+.skill {
+    background-color: #483f3f;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.skill:hover {
+    transform: translateY(-10px);
+}
+.contact-us {
+    margin-top: 5%;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-us h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact form {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.contact form label {
+    color: #000000;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.contact form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.contact form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.footer {
+    margin-top: 10%;
+    background-color: #BDC3C7;
+    color: #2C3E50;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer a {
+    color: #5d5d5d;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .social-icons {
+    margin: 20px 0;
+}
+.footer .social-icons a {
+    margin: 0 5px;
+}
+.footer .social-icons img {
+    width: 24px;
+    height: 24px;
+}
+.footer p {
+    margin: 10px 0 0;
+}
